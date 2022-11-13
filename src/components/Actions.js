@@ -14,14 +14,7 @@ const Actions = ({ switchName }) => {
       >
         {colorMode === 'light' ? 'Dark' : 'Light'} Mode
       </Button>
-      <Button
-        rightIcon={<FaAngleRight />}
-        onClick={() =>
-          router.push(switchName === 'Second Page' ? '/second' : '/')
-        }
-      >
-        {switchName}
-      </Button>
+      
     </>
   );
 
